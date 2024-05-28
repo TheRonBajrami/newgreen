@@ -25,8 +25,8 @@ jobs:
 
       - name: Run auto commit script
         run: |
-          git config --global user.name 'your-username'
-          git config --global user.email 'your-email@example.com'
+          git config --global user.name 'Jethro Au'
+          git config --global user.email 'galongau@gmail.com'
           python auto_commit.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
